@@ -11,3 +11,10 @@
         font-size: 1.5rem;
     }
 }
+
+*{
+    cursor: url(https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/curcor1.png),auto!important;
+}
+:active{
+    cursor: url(https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/curcor2.png),auto!important;
+}
