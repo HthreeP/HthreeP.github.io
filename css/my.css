@@ -18,3 +18,18 @@
 :active{
     cursor: url(https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/curcor2.png),auto!important;
 }
+
+.hbe-input-container  .btn-decrypt{
+  display: inline-block;
+  vertical-align: top;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #3f90ff;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
