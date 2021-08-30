@@ -1,7 +1,0 @@
----
-title: 2018
-type: "gallery"
-layout: "gallery"
-password: hb200312
-img: https://cdn.jsdelivr.net/gh/HthreeP/pic@master/img/202108162006106.jpg
----
