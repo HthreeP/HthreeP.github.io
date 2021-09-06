@@ -620,14 +620,22 @@
 
 <div class="container">
     <div class="photo-wrapper">
-        <div class="waterfall" id="mygallery">
-            <a target="_blank" href="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113055.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113055.jpg"       alt=2018/IMG_20180204_113055.jpg>
-    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113302.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113302.jpg"       alt=2018/IMG_20180204_113302.jpg>
-    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113442.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180204_113442.jpg"       alt=2018/IMG_20180204_113442.jpg>
-    </a><a target="_blank" href="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180208_083336.jpg"     class="photo-item" rel="example_group noopener"     data-fancybox="images">      <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/HthreeP/pic@master/2018/IMG_20180208_083336.jpg"       alt=2018/IMG_20180208_083336.jpg>
-    </a>
+        
 
-        </div>
+            <script src="/lib/crypto-js.js"></script>
+            <script src="/js/gallery-encrypt.js"></script>
+            <div id="hbe-security">
+                <div class="hbe-input-container">
+                    <input type="password" class="hbe-form-control" id="pass"  placeholder="请输入密码查看内容"/>
+                    <a href="javascript:;" class="btn-decrypt" id="btn_decrypt">解密</a>
+                </div>
+            </div>
+            <div  id="mygallery">
+                <div class="waterfall" id="encrypt-blog" style="display:none">
+                    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
+                </div>
+            </div>
+        
     </div>
 </div>
 
