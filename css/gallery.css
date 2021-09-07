@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@HthreeP 
+liyang5945
+/
+liyang5945.github.io
+2
+236
+Code
+Issues
+1
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+liyang5945.github.io/themes/hexo-theme-matery/source/css/gallery.css
+
+liyang5945 添加源文件
+Latest commit 5891392 on 29 Aug 2019
+ History
+ 0 contributors
+92 lines (81 sloc)  1.69 KB
+  
 .gallery-wrapper{
   padding-top: 30px;
 }
@@ -10,6 +40,7 @@
   overflow: hidden;
   background-color: #fff;
   padding: 5px;
+  padding-bottom: 0;
   position: relative;
   -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.22);
