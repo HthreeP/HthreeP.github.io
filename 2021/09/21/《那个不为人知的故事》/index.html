@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo+Github搭建博客, HTML,CSS,JavaScript,JQuery,java,linux等">
+    <meta name="keywords" content="《那个不为人知的故事》, HTML,CSS,JavaScript,JQuery,java,linux等">
     <meta name="description" content="本网站是个人兴趣爱好，总结分享经验，记录生活点滴的平台，希望在以后的学习旅途中，走出自己的风景。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>hexo+Github搭建博客 | HthreeP</title>
+    <title>《那个不为人知的故事》 | HthreeP</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -601,12 +601,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://i.loli.net/2021/08/15/WCHvQcZrfJLjTEI.png')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/HthreeP/pic/img/ng.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo+Github搭建博客</h1>
+                    <h1 class="description center-align post-title">《那个不为人知的故事》</h1>
                 </div>
             </div>
         </div>
@@ -725,12 +725,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/GitHub/">
-                                <span class="chip bg-color">GitHub</span>
-                            </a>
-                        
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/%E9%9A%8F%E7%AC%94/">
+                                <span class="chip bg-color">随笔</span>
                             </a>
                         
                     </div>
@@ -741,8 +737,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                学习
+                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
+                                小说
                             </a>
                         
                     </div>
@@ -754,7 +750,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-08-12
+                    2021-09-21
                 </div>
                 
 
@@ -763,14 +759,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1k
+                    2.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    7 分
                 </div>
                 
 
@@ -790,89 +786,134 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="hexo-Github实现博客搭建教程（不含美化）"><a href="#hexo-Github实现博客搭建教程（不含美化）" class="headerlink" title="hexo+Github实现博客搭建教程（不含美化）"></a>hexo+Github实现博客搭建教程（不含美化）</h1><p>不想有一个属于自己的博客吗？嘤嘤嘤。</p>
-<h2 id="Hexo简介"><a href="#Hexo简介" class="headerlink" title="Hexo简介"></a>Hexo简介</h2><p>Hexo 是一款基于Node.js的静态博客框架，依赖少易于安装使用，可以方便的生成静态网页托管在GitHub和Coding上，是搭建博客的首选框架。大家可以进入<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">hexo官网</a>进行详细查看，因为Hexo的创建者是台湾人，对中文的支持很友好，可以选择中文进行查看。</p>
-<h2 id="Hexo搭建步骤"><a href="#Hexo搭建步骤" class="headerlink" title="Hexo搭建步骤"></a>Hexo搭建步骤</h2><h3 id="1、安装node-js"><a href="#1、安装node-js" class="headerlink" title="1、安装node.js"></a>1、安装node.js</h3><p><a target="_blank" rel="noopener" href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi</a><br><a target="_blank" rel="noopener" href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi</a><br>选择需要的版本下载，分别是32位和64位。下载后安装一直默认下一步就行。</p>
-<h3 id="2、安装Git（可省略）"><a href="#2、安装Git（可省略）" class="headerlink" title="2、安装Git（可省略）"></a>2、安装Git（可省略）</h3><p>（ <em>可以用Windows自带的 cmd命令</em> ）</p>
-<p><a target="_blank" rel="noopener" href="https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/Git-2.11.0.3-32-bit.exe">Git-2.11.0.3-32-bit.exe</a><br><a target="_blank" rel="noopener" href="https://github.com/git-for-windows/git/releases/download/v2.11.0.windows.3/Git-2.11.0.3-64-bit.exe">Git-2.11.0.3-64-bit.exe</a></p>
-<p>不会下载安装的如下：</p>
-<p>Git下载：<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>Git安装：<a target="_blank" rel="noopener" href="https://blog.csdn.net/u013162035/article/details/78464161">https://blog.csdn.net/u013162035/article/details/78464161</a></p>
-<p>打开cmd命令行(win+r 输入cmd回车)分别执行</p>
-<pre class=" language-bush"><code class="language-bush">node -v
-npm -v
-git --version
-</code></pre>
-<p>会得到相对应的版本信息（如图）</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/bYuNcRyGlBC8mXn.png"></p>
-<p>如果都可以成功运行出现版本信息证明安装成功。<br>这里写过一篇介绍git的文章，如果安装遇到问题可以去查看：<br><a target="_blank" rel="noopener" href="http://www.jianshu.com/p/555e7a188312">《必须要会的Git基本使用及常用命令操作》</a></p>
-<h3 id="3、初始化博客"><a href="#3、初始化博客" class="headerlink" title="3、初始化博客"></a>3、初始化博客</h3><p>首先安装淘宝的cnpm管理器：</p>
-<pre class=" language-bush"><code class="language-bush">npm install -g cnpm --registry=http://registry.npm.taobao.org
-</code></pre>
-<p>等待安装完成后可以输入<code>cnpm -v</code>查看版本</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/9OWaG76IE5fUeMD.png"></p>
-<p>然后安装hexo框架：</p>
-<pre class=" language-bush"><code class="language-bush">cnpm install -g hexo-cli
-</code></pre>
-<p>等待安装完成后可以输入<code>hexo -v</code>查看版本</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/LimdBGc3NCbIqjO.png"></p>
-<p>确保无误后，输入<code>mkdir blog</code>创建blog目录，此时会多出一个blog文件夹：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/SVOEDMFcd7gKm8N.png"></p>
-<p>输入<code>cd blog</code>进入blog目录，再输入以下内容生成博客：</p>
-<pre class=" language-bush"><code class="language-bush">sudo hexo init     #git用户
-hexo init     #cmd用户
-</code></pre>
-<p>等待完成后你的blog文件夹下会多出很多东西：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/xqWZRmrcbD63Byz.png"></p>
-<p>(<em>可能你们没我的多，因为我是加工美化后的</em>)</p>
-<h3 id="4、本地检查博客"><a href="#4、本地检查博客" class="headerlink" title="4、本地检查博客"></a>4、本地检查博客</h3><p>cmd或git中的blog目录下输入<code>hexo s</code>启动本地博客服务</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/Elj6oirNDJcQsqP.png"></p>
-<p>打开浏览器, 在地址栏输入<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>来访问博客</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/Z4HRilOxa7KqbtD.png"></p>
-<p>可以创建一篇文章实验能否成功发布</p>
-<ul>
-<li>输入<code>hexo n</code>  #创建文章</li>
-<li>输入hexo clean  #清理</li>
-<li>输入 hexo g   #生成 </li>
+                <p>#那个不为人知的故事</p>
+<p>《那个不为人知的故事》是人气作者 <a target="_blank" rel="noopener" href="https://baike.baidu.com/item/Twentine/18830184?fr=aladdin">Twentine</a> 的经典之作,讲述了古董修复师杨昭为弟弟解决民事纠纷遇见的一个神秘有趣的出租车司机陈铭生，不可自拔的陷入爱恋，也渐渐发现男主身上不能为外人道也，不能为人所知的故事。故事究一条主线，从头到尾，前面在讲述两人从陌生到相爱，后面讲两人分隔，警察重返做卧底后矛盾压抑的生活，最后两章高潮骤起，戛然而止。</p>
+<h2 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h2><p>“ 我曾拥有一段时光</p>
+<p>在那段时光里</p>
+<p>我能用我贫瘠的词语描绘出每一分每一秒</p>
+<p>我能用我枯竭的心灵记住所有的细节</p>
+<p>但这段时光很短暂</p>
+<p>就像一个故事刚刚有了开篇就戛然而止</p>
+<p>我花费了很多时间尝试着开启新的故事</p>
+<p>但我没有成功</p>
+<p>我开始恐惧那种只能用“很多年过去了”来形容的生命</p>
+<p>所以支撑了这么久最后我还是决定放弃</p>
+<p>就算再索然无味的故事也要有一个结局</p>
+<p>我很欣慰</p>
+<p>因为这个不为人知的故事</p>
+<p>终于完整了”</p>
+<h2 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h2><ul>
+<li><h3 id="杨昭"><a href="#杨昭" class="headerlink" title="杨昭"></a>杨昭</h3></li>
 </ul>
-<p>任然访问<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>  如下：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/CX1mY39SjQHI7E2.png"></p>
-<h3 id="5、Github部署"><a href="#5、Github部署" class="headerlink" title="5、Github部署"></a>5、Github部署</h3><ol>
-<li>点击进入<a target="_blank" rel="noopener" href="https://github.com/">github</a>新建账号</li>
-</ol>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/YFyijnHc9Oa3LwS.png"></p>
-<ol start="2">
-<li>新建仓库</li>
-</ol>
-<p>点击加号，如下图：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/Q68Pp1eT2slimXJ.png"></p>
-<p>然后创建格式为<code>YourGithubName.github.io</code>，如下图：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/5A4KyHYkdC89eiM.png"></p>
-<ol start="3">
-<li>在blog目录下安装git部署插件</li>
-</ol>
-<pre class=" language-bush"><code class="language-bush">cnpm install --save hexo-deployer-git
-</code></pre>
-<ol start="4">
-<li>配置blog目录下的_config.yml文件</li>
-</ol>
-<p>​      修改为：</p>
-<p>​         deploy:<br>            type: git<br>             repo: <a target="_blank" rel="noopener" href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>             branch: master</p>
-<p>​      如图：</p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/2qxG4AgIsrd13My.png"></p>
-<ol start="5">
-<li><p>最后部署到Github仓库里</p>
-<pre class=" language-bush"><code class="language-bush">hexo d
-</code></pre>
-<p>最后访问<a target="_blank" rel="noopener" href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> 查看你的博客。 </p>
-<p><img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/16/XSvAYbj6hTJU45f.jpg"></p>
+<p>一名古董修复师，一个优秀的知识青年，家境富沃，职业特殊，从小受到精英主义的影响，对外思维理性，处理事情雷厉风行，内心却感性细腻，敏锐勇敢。</p>
+<ul>
+<li><h3 id="陈铭生"><a href="#陈铭生" class="headerlink" title="陈铭生"></a>陈铭生</h3></li>
+</ul>
+<p>一名出租车司机同时也是缉毒警察，身体残疾，生活辛苦，却拥有出众的观察力和良好的心理素质。杨昭发现，这个男人残缺的身体和顽强的性格，矛盾又充满诱惑，使她深深地被吸引了，并且大胆地爱上了这个男人。</p>
+<h2 id="段落短片"><a href="#段落短片" class="headerlink" title="段落短片"></a>段落短片</h2><ul>
+<li>###契子</li>
+</ul>
+<p>“他叫陈铭生”</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=178925270&amp;page=1" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li><h3 id="旅途"><a href="#旅途" class="headerlink" title="旅途"></a>旅途</h3></li>
+</ul>
+<p>“陈铭生，你是好人还是坏人。”</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=179838408&amp;page=2" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li><h3 id="醉酒"><a href="#醉酒" class="headerlink" title="醉酒"></a>醉酒</h3></li>
+</ul>
+<p>“陈铭生，一见钟情是天赐的缘分，今晚我的爱开花结果了。”</p>
+<p>“你不要软弱陈铭生，永远都不要。”</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=181159228&amp;page=3" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li><h3 id="告别"><a href="#告别" class="headerlink" title="告别"></a>告别</h3></li>
+</ul>
+<p>这段时光很短暂</p>
+<p>就像一个故事刚刚有了开篇</p>
+<p>就戛然而止</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=182019271&amp;page=4" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li>###联系</li>
+</ul>
+<p>陈铭生真的是个混蛋，他一直没有联系我，用他走之前的话说，就是一直没空。</p>
+<p>直到我把手机扔进河里的一周后……</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=183735309&amp;page=5" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li>###新年</li>
+</ul>
+<p>在漫长的除夕夜里，拖着疲惫的身躯，他们彼此相拥。</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=184557057&amp;page=6" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li>###放榜日</li>
+</ul>
+<p>“他叫陈铭生”</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=185822915&amp;page=7" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li>###倒数</li>
+</ul>
+<p>我开始恐惧那种</p>
+<p>只能用“很多年过去了”来形容的生命</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=188004907&amp;page=8" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<ul>
+<li>###不为人知</li>
+</ul>
+<p>“陈铭生，我来找你了。”</p>
+<iframe src="//player.bilibili.com/player.html?aid=285296267&amp;bvid=BV19f4y1U7x5&amp;cid=189269477&amp;page=9" scrolling="no" border="0" frameborder="no" height="500" framespacing="0" allowfullscreen="true"> </iframe>
+
+<p>##鉴赏评价（客观）</p>
+<ol>
+<li><p>陈铭生对于杨昭来说，是一个被所有人否定的存在，她出身世家，出国留学，从事艺术，他们格格不入。但是对杨昭来说，陈铭生是一个抛却了芥蒂，侧目和牵挂仍然想要去的地方，他是她的理想国，那里隐晦，不语，却又生机勃勃，悄然生长。他是她凝视着别人的笑容时心里的寄托，是她单单念起名字都会弯起嘴角的人。</p>
+</li>
+<li><p>这本小说最让人印象深刻的就是男女主之间的虐恋，她与他的爱坦坦荡荡，毫无遮掩，却不容于世俗，人们一面说要勇敢，一面又说着你与他不配这样的话语，悲悯和矛盾总是这样互相折磨着，让人读起来十分揪心。</p>
+</li>
+<li><p>《那个不为人知的故事》简洁而富有张力，切入的角度和抒情都不落俗套。只有在这样的文字下，陈铭生的性格才得到最完美的体现——少言，观察力强，坚毅，重情，男人。她期待着未来的时候，却发现已经走到了故事的尽头。“如果雪山能看见，如果命运能预知，如果时光能倒退，如果岁月能重来。”不过最后的最后，她终于去找他了。</p>
 </li>
 </ol>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>—    #安装Nodejs<br>node -v    #查看node版本<br>npm -v    #查看npm版本<br>npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器<br>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v    #查看hexo版本<br>mkdir blog    #创建blog目录<br>cd blog     #进入blog目录<br>sudo hexo init     #生成博客 初始化博客<br>hexo s    #启动本地博客服务<br><a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>    #本地访问地址<br>hexo n 我的第一篇文章 #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成<br>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件<br>-—<br>#配置_config.yml<br>-—-<br>    # Deployment<br>    ## Docs: <a target="_blank" rel="noopener" href="https://hexo.io/docs/deployment.html">https://hexo.io/docs/deployment.html</a><br>    deploy:<br>          type: git<br>         repo: <a target="_blank" rel="noopener" href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>          branch: master<br>-—-<br>hexo d    #部署到Github仓库里<br><a target="_blank" rel="noopener" href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #访问这个地址可以查看博客</p>
-<p> git clone <a target="_blank" rel="noopener" href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia  #下载yilia主题到本地</p>
-<p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p>
-<p>hexo c    #清理一下<br>hexo g    #生成<br>hexo d    #部署到远程Github仓库<br><a target="_blank" rel="noopener" href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #查看博客</p>
-<p><code>2021-8-16</code>备注：</p>
-<p>GitHub官网由于密码验证于2021年8月13日不再支持，hexo博客上传本地不得是https 源，要用SSH免密，可能会导致上述操作的‘上传博客’部分有误。具体操作修改请看 <a href="https://hthreep.github.io/2021/08/16/GitHub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">点我</a>。</p>
+<p>##经典语录</p>
+<ol>
+<li><p>你知道么，这世界有很多不被接受的种子，都在不为人知的角落，开成了花。</p>
+</li>
+<li><p>人心是一片荒芜的平原，黑暗笼罩，只有偶尔一声惊雷，撕开了无极的天际。</p>
+</li>
+<li><p>历史是模糊的，就像人的灵魂一样，一半真实，一半虚假，一半存活于梦境，一半扎根于现实。</p>
+</li>
+<li><p>人往往就是这个样子，在相处的过程中，每个人都会都会发现其他人与自己不同的地方，而当他们意识到这种不同带来的内在差异时，原本积极的感情，也会转化为无形的恶意。</p>
+</li>
+<li><p>火光亮起来的一瞬，陈铭生微微侧过头，看见杨昭淡淡的眉目在火光的映照中，熠熠发光。</p>
+</li>
+<li><p>只是偶尔，在工作之余，她坐在书房的书桌前，看见墙角文竹盆栽旁立着的假肢，会想起那个男人。</p>
+</li>
+<li><p>在那段时光里，我能用我干枯的心灵记住所有的细节，我能用我贫瘠的词语描绘每一分每一秒。</p>
+</li>
+<li><p>“我的欲望是真的，我的感情是真的，我坦坦荡荡。”</p>
+</li>
+</ol>
+<p>##个人评价</p>
+<p>没有人知道陈铭生的钱是拿来娶杨昭的<br>杨锦天永远不会知道那道糖醋排骨是陈铭生做的<br>杨昭不知道陈铭生偷偷跑回来在他家楼下看她<br>陈铭生不知道他的杨昭为了他殉情<br>而我 知道了这个不为人知的故事<span class="github-emoji"><span>😵</span><img src="/medias/loading.gif" data-original="https://github.githubassets.com/images/icons/emoji/unicode/1f635.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span></p>
+<p>这个故事很简单，就是讲述一个有着特别癖好的女人找寻自我的过程。当中或许存在爱情。</p>
+<p>女主角杨昭是整篇故事的点睛之处，我能在其他言情小说中看到类似的故事风格，但我无法找到另一个杨昭。<br>正如作者所说:</p>
+<blockquote>
+<p>她不是传统意义上的爱情小说女主角，她不怎么善良，也谈不上温柔，而是冷漠、尖锐、自我。<br>我给了她一个优渥的环境，她完完全全沉浸在自己的世界里。<br>她的的确确就是这么一个人，但她对世俗的不畏，对生活的理性，对爱情的坦坦荡荡 着实打动了我。特别是杨昭在医院有顺序亲吻陈铭生尸体各个部位的时候，真的泪崩了，我想这就是整篇故事在我心中牵萦回绕的原因吧。</p>
+</blockquote>
+<p>男主角陈铭生是一个比较灰暗的设定，可以说，陈铭生的出现，就已经让故事不由自主的压抑了。</p>
+<p>有时读着读着，我会感到陈铭生很可怜。按照作者T大的话来说就是:陈铭生带着男主角的帽子，其实是为女主角杨昭做衬衣。</p>
+<p>他不算帅，没有多少钱，有些土，他唯一的优点就是坚定，就是杨昭，虽然他们的坚定来自不同的方向。</p>
+<p>他一辈子活的很憋屈，他母亲心里只有他的父亲陈国赢，他跟杨昭之间的感情又不被世俗所理解，家人的劝阻，朋友同事的异样眼光，特别是陈铭生被宋辉蒋晴拉去吃饭跟他说杨昭慕残那一段，我记得特别清楚，杨昭说了一句话，“陈铭生，我的欲望是真的，感情也是真的，我坦坦荡荡”。人心是一片荒芜的平原，黑暗笼罩，只有偶尔一声惊雷，撕开了无际的天际，而陈铭生在那偶然的瞬间，透过浅浅的裂隙，看到一个完整的灵魂。那一刹那，陈铭生知道，他完了。</p>
+<p>陈铭生在故事中安安静静的出现，安安静静的离开，没有轰轰烈烈，他就那么简简单单地离开了。他的队友投身于工作随着时间将他遗忘，而杨昭却在第四年迟到了。杨昭也确实在那之后顺应了她的那句话:“陈铭生，我明年就不来看你了”。</p>
+<p>故事很短，短到只用几个小时就可以看完；故事很长，长到我看完后任然沉浸在故事中久久走不出。</p>
+<p>写诗的人用了十年开始遗忘，杨昭仅仅四年就已经迟到，而我不知道再过多久就会将这篇故事淡忘，也许只需要几星期吧。</p>
+<p>确实如书里所说，所有的感情都是这样，起于兴起，发于浓烈，最终，归于平淡。​</p>
+<p>我想在它平淡之前，将我对这个故事最浓烈的感想写下。</p>
+<p>于此。</p>
 
                 
             </div>
@@ -899,7 +940,7 @@ hexo init     #cmd用户
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://HthreeP.github.io/2021/08/12/hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">https://HthreeP.github.io/2021/08/12/hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</a>
+                    <a href="https://HthreeP.github.io/2021/09/21/%E3%80%8A%E9%82%A3%E4%B8%AA%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/">https://HthreeP.github.io/2021/09/21/%E3%80%8A%E9%82%A3%E4%B8%AA%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -937,12 +978,8 @@ hexo init     #cmd用户
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/GitHub/">
-                                    <span class="chip bg-color">GitHub</span>
-                                </a>
-                            
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/%E9%9A%8F%E7%AC%94/">
+                                    <span class="chip bg-color">随笔</span>
                                 </a>
                             
                         </div>
@@ -1438,9 +1475,59 @@ hexo init     #cmd用户
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2021/09/21/%E3%80%8A%E9%82%A3%E4%B8%AA%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/">
+                    <div class="card-image">
+                        
+                        <img src="/medias/loading.gif" data-original="https://cdn.jsdelivr.net/gh/HthreeP/pic/img/ng.jpg" class="responsive-img" alt="《那个不为人知的故事》">
+                        
+                        <span class="card-title">《那个不为人知的故事》</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-09-21
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/%E5%B0%8F%E8%AF%B4/" class="post-category">
+                                    小说
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E9%9A%8F%E7%AC%94/">
+                        <span class="chip bg-color">随笔</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2021/08/16/GitHub%E4%B8%8D%E5%86%8D%E6%94%AF%E6%8C%81%E5%AF%86%E7%A0%81%E9%AA%8C%E8%AF%81%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
                     <div class="card-image">
@@ -1457,56 +1544,8 @@ hexo init     #cmd用户
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-08-16
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E5%AD%A6%E4%B9%A0/" class="post-category">
-                                    学习
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/GitHub/">
-                        <span class="chip bg-color">GitHub</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2021/08/12/hexo+Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/">
-                    <div class="card-image">
-                        
-                        <img src="/medias/loading.gif" data-original="https://i.loli.net/2021/08/15/WCHvQcZrfJLjTEI.png" class="responsive-img" alt="hexo+Github搭建博客">
-                        
-                        <span class="card-title">hexo+Github搭建博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            嘤嘤嘤，你不想有一个属于自己的博客吗
-                        
-                    </div>
-                    <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-12
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-08-16
                             </span>
                         <span class="publish-author">
                             
@@ -1520,16 +1559,11 @@ hexo init     #cmd用户
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
                     <a href="/tags/GitHub/">
                         <span class="chip bg-color">GitHub</span>
-                    </a>
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
                     </a>
                     
                 </div>
