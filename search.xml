@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Sublime Text安装及汉化</title>
+      <link href="/2022/02/20/Sublime-Text%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B1%89%E5%8C%96/"/>
+      <url>/2022/02/20/Sublime-Text%E5%AE%89%E8%A3%85%E5%8F%8A%E6%B1%89%E5%8C%96/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>打开文件夹到下图，点击exe文件，傻瓜式安装即可。</p><p><img src="https://cdn.jsdelivr.net/gh/HthreeP/pic/img/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-02-20%20193839.png" alt="01"></p><h2 id="2-安装-Package-Control"><a href="#2-安装-Package-Control" class="headerlink" title="2.安装 Package Control"></a>2.安装 Package Control</h2><p>大多数人都是在这一步出问题。</p><p>找到</p><p><img src="https://cdn.jsdelivr.net/gh/HthreeP/pic/img/sub2.png" alt="02"></p><p>向上一级</p><p>进入<code>Installed Packages</code></p><p>放入准备好的<code>Package Control</code>文件</p><p>会自动安装好<code>Package Control</code></p><h2 id="3-安装插件（可跳过）"><a href="#3-安装插件（可跳过）" class="headerlink" title="3.安装插件（可跳过）"></a>3.安装插件（可跳过）</h2><p>本地网络测试，国内源已经无法访问，并且国外源访问速度不慢，直接使用自带的源即可。</p><p>配置国内插件源</p><p>按<code>“Ctrl+Shift+P”</code>打开控制台</p><p>输入<code>“pcac”</code>回车</p><p>粘贴这个网址</p><p><code>http://packagecontrol.cn/channel_v3.json</code></p><p>回车</p><h2 id="4-汉化"><a href="#4-汉化" class="headerlink" title="4.汉化"></a>4.汉化</h2><ul><li><p>按<code>“Ctrl+Shift+P”</code>打开控制台</p></li><li><p>输入<code>“ip”</code>回车</p></li><li><p>等待出来输入框</p></li><li><p>输入<code>chinese</code></p></li><li><p>第一个就是汉化插件。</p></li><li><p>回车即可</p></li></ul><h2 id="5-视频教程"><a href="#5-视频教程" class="headerlink" title="5.视频教程"></a>5.视频教程</h2><iframe src="//player.bilibili.com/player.html?aid=801939413&amp;bvid=BV1sy4y1774E&amp;cid=306279461&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>《那个不为人知的故事》</title>
       <link href="/2021/09/21/%E3%80%8A%E9%82%A3%E4%B8%AA%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/"/>
       <url>/2021/09/21/%E3%80%8A%E9%82%A3%E4%B8%AA%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%95%85%E4%BA%8B%E3%80%8B/</url>
